@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Riffic Free';
+    src: url('RifficFree-Bold.woff2') format('woff2'),
+        url('RifficFree-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+

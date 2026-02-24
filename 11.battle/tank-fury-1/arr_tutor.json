@@ -1,0 +1,98 @@
+{
+    "c2array": true,
+    "size": [
+        2,
+        14,
+        1
+    ],
+    "data": [
+        [
+            [
+                "Use the buttons\nto move the tank"
+            ],
+            [
+                "Use the buttons\nto aim and shoot"
+            ],
+            [
+                "Move to the right and\ndestroy enemies"
+            ],
+            [
+                "The enemy is too strong!\nLet's go to the garage and\nupgrade our tank!"
+            ],
+            [
+                "This is your garage!\nHere you can upgrade your tank\nand buy useful bonuses"
+            ],
+            [
+                "Now let's upgrade\nthe cannon of our tank"
+            ],
+            [
+                "Here we see how\nthe characteristics\nof the tank change"
+            ],
+            [
+                "You have a crystal!\nGo to the store and\nbuy a booster"
+            ],
+            [
+                "Buy a booster for\nthe bomber attack"
+            ],
+            [
+                "Exit the store"
+            ],
+            [
+                "Go to the combat map"
+            ],
+            [
+                "Tap to start the battle!"
+            ],
+            [
+                "Use A and D buttons\nto move the tank"
+            ],
+            [
+                "W and S buttons for sight,\nthe SPACEBAR for shot"
+            ]
+        ],
+        [
+            [
+                "Используй кнопки\nдля движения танка"
+            ],
+            [
+                "Используй кнопки\nдля прицела и выстрела"
+            ],
+            [
+                "Двигайся в право\nи уничтожай врагов"
+            ],
+            [
+                "Сильный противник!\nПерейди в ангар\nи прокачай танк!"
+            ],
+            [
+                "Это твой ангар!\nЗдесь можно прокачать свой\nтанк и купить полезные бонусы"
+            ],
+            [
+                "Теперь прокачаем\nпушку танка"
+            ],
+            [
+                "Здесь видим как изменяются\nхарактеристики танка"
+            ],
+            [
+                "У тебя есть кристалл!\nЗайди в магазин и купи бустер"
+            ],
+            [
+                "Купи бустер для\nвызова атаки \nбомбардировщика"
+            ],
+            [
+                "Выйди из магазина"
+            ],
+            [
+                "Перейди на карту\nбоевых действий"
+            ],
+            [
+                "Нажми что бы\nначать сражение"
+            ],
+            [
+                "Кнопки A и D\nдля движения танка"
+            ],
+            [
+                "Кнопки W и S для прицела\nПРОБЕЛ для выстрела"
+            ]
+        ]
+    ]
+}

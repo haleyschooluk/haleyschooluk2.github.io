@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Soccer Physics 2",
+"dataUrl": "soccerphysics2.data.unityweb",
+"wasmCodeUrl": "soccerphysics2.wasm.code.unityweb",
+"wasmFrameworkUrl": "soccerphysics2.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#3d4248",
+"cacheControl": {"default": "must-revalidate"}
+}

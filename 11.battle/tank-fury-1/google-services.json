@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "414353428413",
+    "project_id": "tank-battle-wars",
+    "storage_bucket": "tank-battle-wars.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414353428413:android:d58f35e542fae467d3ccd4",
+        "android_client_info": {
+          "package_name": "com.tanks.battlewars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414353428413-smki8trhm3tcvnk91d9v7v6j44011vgs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfunjiFr9L71bDtiRGvikEVHzwNvMicNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414353428413-smki8trhm3tcvnk91d9v7v6j44011vgs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

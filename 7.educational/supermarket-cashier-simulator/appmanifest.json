@@ -1,0 +1,42 @@
+{
+	"name": "Supermarket Cashier Simulator",
+	"short_name": "Supermarket Cashier Simulator",
+	"description": "Supermarket cashier game to serve customers. It will be a lot of fun because it is very similar to being a real cashier. Serving cash payments, credit card or debit card. So skills in mathematics to calculate consumer spending is needed.  If you like supermaket cashier 3d, you'll love this game because it's no less fun with an attractive, stylish design.\n\nWith the many types of items available at the grocery store, it will make the game more fun. Products sold include vegetables, fruits, food, meat and other household needs. So make sure you don't miscalculate the number and price of the items you input at the cashier register. The calculation is similar to the calculator you normally use. So this cashier game will be perfect for supermarket mania lovers.\n\nFEATURES\n★ 160 levels\n★ Register with scanner\n★ 2 currencies, dollars and pounds\n★ 3 payment systems, cash, credit card and debit card\n★ 2 game modes untimed and timed mode\n★ Game stores\n★ System shop for purchasing skins\n\n*** DO YOU LIKE OUR GAME? ***\nEnjoy the game by playing cashier simulator, we will continue to update this game, Help us and take a few seconds to rate it and write your opinion on Google Play. Your contribution will enable us to improve and develop new free games.",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-64.png",
+			"sizes": "64x64",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"screenshots": []
+}

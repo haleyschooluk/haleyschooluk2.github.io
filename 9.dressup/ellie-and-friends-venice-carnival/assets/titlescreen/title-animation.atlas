@@ -1,0 +1,202 @@
+
+title-animation.png
+size: 1164,401
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+&
+  rotate: false
+  xy: 189, 15
+  size: 24, 26
+  orig: 26, 28
+  offset: 1, 1
+  index: -1
+Boat
+  rotate: true
+  xy: 866, 32
+  size: 241, 93
+  orig: 243, 95
+  offset: 1, 1
+  index: -1
+C
+  rotate: false
+  xy: 1028, 6
+  size: 41, 47
+  orig: 43, 49
+  offset: 1, 1
+  index: -1
+CARNIVEL Back
+  rotate: true
+  xy: 603, 60
+  size: 339, 95
+  orig: 341, 97
+  offset: 1, 1
+  index: -1
+CARNIVEL Blur
+  rotate: true
+  xy: 207, 55
+  size: 344, 97
+  orig: 348, 102
+  offset: 2, 3
+  index: -1
+Carrnivel
+  rotate: true
+  xy: 700, 61
+  size: 338, 92
+  orig: 341, 94
+  offset: 1, 1
+  index: -1
+Color paper-1
+  rotate: true
+  xy: 794, 73
+  size: 73, 59
+  orig: 76, 61
+  offset: 2, 1
+  index: -1
+Color paper-2
+  rotate: false
+  xy: 53, 11
+  size: 76, 30
+  orig: 81, 35
+  offset: 3, 1
+  index: -1
+Design
+  rotate: false
+  xy: 265, 6
+  size: 318, 47
+  orig: 321, 49
+  offset: 1, 1
+  index: -1
+E-1
+  rotate: true
+  xy: 2, 3
+  size: 38, 49
+  orig: 40, 51
+  offset: 1, 1
+  index: -1
+E-2
+  rotate: true
+  xy: 1071, 10
+  size: 43, 54
+  orig: 45, 56
+  offset: 1, 1
+  index: -1
+Ellie
+  rotate: false
+  xy: 758, 2
+  size: 106, 57
+  orig: 108, 59
+  offset: 1, 1
+  index: -1
+Ellie icon
+  rotate: true
+  xy: 794, 204
+  size: 44, 64
+  orig: 46, 67
+  offset: 1, 2
+  index: -1
+Friends
+  rotate: false
+  xy: 585, 2
+  size: 171, 52
+  orig: 173, 54
+  offset: 1, 1
+  index: -1
+Layer 49
+  rotate: true
+  xy: 866, 7
+  size: 23, 47
+  orig: 25, 49
+  offset: 1, 1
+  index: -1
+Mask-2
+  rotate: false
+  xy: 1028, 55
+  size: 108, 93
+  orig: 110, 96
+  offset: 1, 2
+  index: -1
+N
+  rotate: false
+  xy: 215, 3
+  size: 48, 50
+  orig: 50, 52
+  offset: 1, 1
+  index: -1
+Ribbon
+  rotate: false
+  xy: 866, 275
+  size: 296, 124
+  orig: 298, 126
+  offset: 1, 1
+  index: -1
+Shadow
+  rotate: true
+  xy: 306, 56
+  size: 343, 295
+  orig: 350, 300
+  offset: 3, 2
+  index: -1
+Star-1
+  rotate: false
+  xy: 131, 14
+  size: 27, 27
+  orig: 29, 29
+  offset: 1, 1
+  index: -1
+Star-2
+  rotate: false
+  xy: 915, 7
+  size: 23, 23
+  orig: 25, 25
+  offset: 1, 1
+  index: -1
+Star-3
+  rotate: false
+  xy: 160, 14
+  size: 27, 27
+  orig: 29, 29
+  offset: 1, 1
+  index: -1
+Star-4
+  rotate: false
+  xy: 940, 7
+  size: 23, 23
+  orig: 25, 25
+  offset: 1, 1
+  index: -1
+V
+  rotate: true
+  xy: 794, 148
+  size: 54, 61
+  orig: 56, 63
+  offset: 1, 1
+  index: -1
+Venice back
+  rotate: true
+  xy: 961, 32
+  size: 241, 65
+  orig: 243, 67
+  offset: 1, 1
+  index: -1
+White
+  rotate: true
+  xy: 1028, 150
+  size: 123, 129
+  orig: 123, 129
+  offset: 0, 0
+  index: -1
+mask-1
+  rotate: true
+  xy: 794, 250
+  size: 149, 68
+  orig: 151, 70
+  offset: 1, 1
+  index: -1
+paper
+  rotate: true
+  xy: 2, 43
+  size: 356, 203
+  orig: 358, 205
+  offset: 1, 1
+  index: -1

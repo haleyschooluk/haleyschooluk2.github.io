@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+        <meta charset="utf-8"/>
+		<meta name="viewport" content="user-scalable=no">
+
+		<title>Minigolf Clash</title>
+
+		<link rel="icon" type="image/png" href="assets/favicon/icon-152x152.png" sizes="152x152">
+		<link rel="icon" type="image/png" href="assets/favicon/icon-512x512.png" sizes="512x512">
+
+		<link rel="apple-touch-icon" type="image/png" href="assets/favicon/icon-152x152.png" sizes="152x152">
+		<link rel="apple-touch-icon" type="image/png" href="assets/favicon/icon-512x512.png" sizes="512x512">
+
+
+
+
+
+
+		<!--RPLC:INDEX_HEAD-->
+
+
+
+
+
+		<!--&ndash;&gt;-->
+
+
+
+
+
+
+
+
+        <script src="js/game.js"></script>
+        
+
+		<style type="text/css">
+			* { margin: 0; padding: 0;  }
+
+			body {
+				-webkit-touch-callout: none !important;                /* prevent callout to copy image, etc when tap to hold */
+				-webkit-text-size-adjust: none !important;             /* prevent webkit from resizing text to fit */
+				-webkit-user-select: none !important;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+			}
+
+			#turn {
+				width: 100%;
+				height: 100%;
+				position: fixed;
+				top: 0;
+				left: 0;
+				background-color: black;
+				background-image: url("assets/graphics/rotate_screen.png");
+				background-repeat: no-repeat;
+				background-position: center center;
+				display: none;
+				touch-action: none;
+			}
+
+			#wakoolAdDiv {
+				position: fixed;
+				bottom: 0;
+				left: 50%;
+				transform: translateX(-50%);
+				z-index: 5000;
+			}
+
+            canvas {
+                background-color: #5CE1FE;
+                background-image: url("assets/graphics/bg/bg-grad.png");
+            }
+
+			@font-face {
+				font-family: "gameFont";
+				font-style: normal;
+				font-weight: 400;
+				src: url("assets/fnt/Ubuntu-B.ttf") format('truetype');
+			}
+
+            #wrongRotation {
+                display: none;
+                z-index: 20;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 1);
+                touch-action: none;
+            }
+
+            #wrongRotation img {
+                display: block;
+                width: 30%;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+                top: 40%;
+                -webkit-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+                touch-action: none;
+            }
+
+		</style>
+	</head>
+
+	<body style="background-color: #5CE1FE;">
+        <!--<div id="turn"></div>-->
+        <div id="wrongRotation">
+            <img src="assets/graphics/rotate_screen.png" alt=""/>
+        </div>
+
+		
+		<div class="font_preload" style="opacity: 0">
+			<span style="font-family: 'gameFont', Arial, sans-serif;"></span>
+		</div>
+		<div id="ads"></div>
+		<div id="wakoolAdDiv"></div>
+	</body>
+</html>

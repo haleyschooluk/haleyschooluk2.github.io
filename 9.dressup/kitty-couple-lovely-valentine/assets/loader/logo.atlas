@@ -1,0 +1,139 @@
+
+logo.png
+size: 337,708
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Blue light
+  rotate: true
+  xy: 1, 545
+  size: 162, 276
+  orig: 171, 281
+  offset: 6, 2
+  index: -1
+Cloud
+  rotate: true
+  xy: 278, 629
+  size: 78, 57
+  orig: 82, 61
+  offset: 2, 2
+  index: -1
+Cute C
+  rotate: true
+  xy: 282, 90
+  size: 45, 46
+  orig: 50, 50
+  offset: 2, 2
+  index: -1
+Cute E
+  rotate: true
+  xy: 262, 7
+  size: 31, 33
+  orig: 35, 37
+  offset: 2, 2
+  index: -1
+Cute T
+  rotate: true
+  xy: 282, 39
+  size: 27, 41
+  orig: 31, 45
+  offset: 2, 2
+  index: -1
+Cute U
+  rotate: false
+  xy: 183, 20
+  size: 39, 37
+  orig: 44, 41
+  offset: 2, 2
+  index: -1
+Games A
+  rotate: false
+  xy: 278, 569
+  size: 57, 59
+  orig: 61, 63
+  offset: 2, 2
+  index: -1
+Games E
+  rotate: false
+  xy: 278, 509
+  size: 57, 59
+  orig: 61, 63
+  offset: 2, 2
+  index: -1
+Games G
+  rotate: false
+  xy: 183, 281
+  size: 89, 100
+  orig: 94, 104
+  offset: 2, 2
+  index: -1
+Games M
+  rotate: true
+  xy: 273, 290
+  size: 88, 63
+  orig: 93, 67
+  offset: 2, 2
+  index: -1
+Games S
+  rotate: true
+  xy: 183, 58
+  size: 77, 98
+  orig: 81, 102
+  offset: 2, 2
+  index: -1
+Glitter
+  rotate: false
+  xy: 278, 419
+  size: 49, 47
+  orig: 61, 56
+  offset: 5, 4
+  index: -1
+Play L
+  rotate: true
+  xy: 282, 67
+  size: 22, 44
+  orig: 26, 48
+  offset: 2, 2
+  index: -1
+Play P
+  rotate: true
+  xy: 278, 379
+  size: 39, 49
+  orig: 43, 53
+  offset: 2, 2
+  index: -1
+Play Y
+  rotate: true
+  xy: 278, 467
+  size: 41, 54
+  orig: 45, 58
+  offset: 2, 2
+  index: -1
+Play a
+  rotate: true
+  xy: 223, 20
+  size: 37, 38
+  orig: 41, 43
+  offset: 2, 3
+  index: -1
+Rianbow
+  rotate: false
+  xy: 183, 136
+  size: 144, 144
+  orig: 148, 148
+  offset: 2, 2
+  index: -1
+Violet border
+  rotate: true
+  xy: 1, 1
+  size: 380, 181
+  orig: 386, 186
+  offset: 3, 3
+  index: -1
+Yellow light
+  rotate: true
+  xy: 1, 382
+  size: 162, 276
+  orig: 171, 281
+  offset: 6, 2
+  index: -1

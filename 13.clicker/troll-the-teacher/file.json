@@ -1,0 +1,10 @@
+{
+	"max_item":1,
+    "max_gun":1,
+    "max_pet":1,
+    "money":0,
+    "weapon_id":1,
+    "what_object_left":1,
+    "what_object_big":1
+    
+}

@@ -1,0 +1,40 @@
+<!doctype html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><title>Words With Owl</title><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="HandheldFriendly" content="true"><meta name="mobile-web-app-capable" content="yes"><link rel="icon" type="image/PNG" href="icon.png"><link rel="stylesheet" href="css/style.css"/><script src="azerion-libs.js"></script><script src="js/azUpdatedSdk.js"></script><script src="js/c2runtime.js"></script><script src="js/jquery-2.0.0.min.js"></script><script defer="defer" src="version.js"></script></head><body><div id="loader"><div id="loaderR"></div></div><div id="c2canvasdiv"><canvas id="c2canvas" width="640" height="740"><h1>Your browser does not appear to support HTML5. Try upgrading your browser to the latest version. <a href="http://www.whatbrowser.org">What is a browser?</a><br><br><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">Microsoft Internet Explorer</a><br><a href="http://www.mozilla.com/firefox/">Mozilla Firefox</a><br><a href="http://www.google.com/chrome/">Google Chrome</a><br><a href="http://www.apple.com/safari/download/">Apple Safari</a><br><a href="http://www.google.com/chromeframe">Google Chrome Frame for Internet Explorer</a><br></h1></canvas></div><script>function startWwo(){
+			// 
+			var resizeme  = function() {
+				cr_sizeCanvas(jQuery(window).width(), jQuery(window).height());
+			}
+
+			// Size the canvas to fill the browser viewport.
+			jQuery(window).resize(resizeme);
+			// SG_Hooks.setResizeHandler(resizeme);
+			// SG_Hooks.setOrientationHandler(resizeme);
+		
+			// Start the Construct 2 project running on window load.
+			// Create new runtime using the c2canvas
+			sgSdk.initialize(
+				['basic', 'levelGame'], {
+					supportedLanguages: ['en','de','fr','it','es','pt','tr','ru'],
+				},
+				function(error, settings, sdkHandler) {
+					window.sgSettings = settings; //an object contains your commands (settings.commands) and game config (settings.config)
+					window.sdkHandler = sdkHandler; //this is the sdk to be used to call events in the game
+					cr_createRuntime("c2canvas");
+				}
+			);
+			
+			
+			// Pause and resume on page becoming visible/invisible
+			function onVisibilityChanged() {
+				if (document.hidden || document.mozHidden || document.webkitHidden || document.msHidden)
+					cr_setSuspended(true);
+				else
+					cr_setSuspended(false);
+			};
+			
+			document.addEventListener("visibilitychange", onVisibilityChanged, false);
+			document.addEventListener("mozvisibilitychange", onVisibilityChanged, false);
+			document.addEventListener("webkitvisibilitychange", onVisibilityChanged, false);
+			document.addEventListener("msvisibilitychange", onVisibilityChanged, false);
+		}
+
+		window.addEventListener('load', startWwo);</script></body>

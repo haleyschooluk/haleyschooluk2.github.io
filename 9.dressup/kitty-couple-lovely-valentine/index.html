@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <title>Kitty Couple Lovely Valentine</title>
+  <script type="text/javascript" src="vendor/phaser.min.js"></script>
+    <script type="text/javascript" src="vendor/animation.js"></script>
+    <script type="text/javascript">
+        var soundcheck = false
+        var soundstart = 0
+        var soundcheck1 = true
+        window["GD_OPTIONS"] = {
+            "gameId": "aadb712f85004122969606329c72e234",
+            "onEvent": function(event) {
+                switch (event.name) {
+                    case "SDK_GAME_START":
+                        if (soundcheck) {
+                            soundstart = 0
+                            game.scene.scenes[pageNo].scene.resume()
+                            soundstart = 0
+                            if (!isMuted) {
+                                music.resume()
+                                soundmute.setFrame(0)
+                            } else {
+                                music.pause()
+                                soundmute.setFrame(1)
+                            }
+
+                        }
+
+                        break;
+                    case "SDK_GAME_PAUSE":
+                        if (soundcheck) {
+                            soundstart = 1
+                            game.scene.scenes[pageNo].scene.pause()
+                            soundstart = 1
+                            if (!isMuted) {
+                                music.pause()
+                                soundmute.setFrame(1)
+                            }
+                        }
+
+                        break;
+                    case "SDK_GDPR_TRACKING":
+                        // this event is triggered when your user doesn't want to be tracked
+                        break;
+                    case "SDK_GDPR_TARGETING":
+                        // this event is triggered when your user doesn't want personalised targeting of ads and such
+                        break;
+                    case "SDK_REWARDED_WATCH_COMPLETE":
+                        console.log('completed')
+
+                        if (pageNo == 4) {
+                            adcheck1 = 1
+                        }
+                        if (pageNo == 5) {
+                            adcheck2 = 1
+                        }
+                        if (pageNo == 6) {
+                            adcheck3 = 1
+                        }
+                        if (pageNo == 7) {
+                            adcheck4 = 1
+                        }
+                         
+                        
+                }
+            },
+        };
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = '/main.min.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'gamedistribution-jssdk'));
+
+    </script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+
+            background-size: cover;
+            background-size: 100%;
+            background-position: center;
+        }
+
+        html,
+        body {
+            margin: 0;
+            overflow-y: hidden;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id='theGame'>
+        <script src="game.js"></script>
+    </div>
+</body>
+
+</html>

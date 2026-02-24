@@ -1,0 +1,22 @@
+{
+    "name": "Lady Pool",
+	"short_name": "Lady Pool",
+	"description": "Dress-up game for girls and children.",
+    "icons": [{
+        "src": "library/icons/icon_128_128.png",
+        "sizes": "128x128",
+		"type": "image/png"
+    }, {
+        "src": "library/icons/icon_144_144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+    }, {
+		"src": "library/icons/icon_512_512.png",
+		"sizes": "512x512",
+		"type": "image/png"
+    }],
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#000000",
+	"theme_color": "#000000"
+}
